@@ -23,6 +23,12 @@ body {
     color: var(--white);
 }
 
+.content{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 header {
     padding: 2rem 1rem;
     max-width: 800px;
@@ -74,13 +80,13 @@ input, button {
     transition: .4s;
 }
 
-#new-task-submit:hover {
+/* #new-task-submit:hover {
     opacity: 0.8;
 }
 
 #new-task-submit:active {
     opacity: 0.6;
-}
+} */
 
 main {
     flex: 1 1 0%;
@@ -147,14 +153,14 @@ main {
         font-size: 0.8rem;
     }
   }
-
+/* 
 #tasks .action button:hover {
     opacity: 0.6;
 }
 
 #tasks .action button:active {
     opacity: 0.4;
-}
+} */
 
 #tasks .action .edit {
     background-image: linear-gradient(to right, var(--pink), var(--purple));
