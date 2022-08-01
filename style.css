@@ -65,17 +65,14 @@ input, button {
 }
 
 #new-task-input::placeholder {
-    color: var(--gray);
+    color: rgb(56, 179, 56);
     font-size: 1rem;
 }
 
 #new-task-submit {
-    color: var(--pink);
+    color: #8B5Cf6;
     font-size: 1.25rem;
     font-weight: 700;
-    background-image: linear-gradient(to right, var(--pink), var(--purple));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     cursor: pointer;
     transition: .4s;
 }
@@ -127,7 +124,7 @@ main {
 }
 
 #tasks .task .content .text {
-    color: var(--light);
+    color: rgb(56, 179, 56);
     font-size: 1.125rem;
     width: 100%;
     display: block;
@@ -163,9 +160,7 @@ main {
 } */
 
 #tasks .action .edit {
-    background-image: linear-gradient(to right, var(--pink), var(--purple));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #8B5Cf6;
 }
 
 #tasks .action .delete {
