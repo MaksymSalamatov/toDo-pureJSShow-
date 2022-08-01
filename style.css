@@ -60,7 +60,7 @@ input, button {
     padding: 1rem;
     border-radius: 1rem;
     margin-right: 1rem;
-    color: var(--light);
+    color: rgb(56, 179, 56);
     font-size: 1.25rem;
 }
 
@@ -132,7 +132,7 @@ main {
 }
 
 #tasks .task .content .text:not(:read-only) {
-    color: var(--pink)
+    color: #8B5Cf6;
 }
 
 #tasks .action button {
